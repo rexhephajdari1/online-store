@@ -1,0 +1,34 @@
+/* .productCard {
+    transition: 300ms ease-in-out;
+}
+.productCard:hover {
+    transform: scale(1.1);
+    
+
+} */
+
+.productCard {
+    transition: transform 0.3s ease-in-out;
+    border: 1px solid transparent;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: none;
+    color: black;
+  }
+
+
+.productCard:hover{
+    transform: scale(1.02);
+    border: 1px solid orange;
+    box-shadow: 0 0 15px orange;
+   
+
+}
+
+.card-body{
+    margin: 20px 10px;
+    
+}
+
+.card-price{
+    margin-top:20px ;
+}

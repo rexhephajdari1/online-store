@@ -1,0 +1,58 @@
+nav{
+    display: flex;
+    align-items: center;
+    background-color: black;
+    justify-content: space-between;
+    padding: 20px 80px  ;
+}
+
+#navbar{
+   display: flex;
+   align-items: center;
+   justify-content: center ;
+}
+
+#navbar li{
+   list-style: none;
+   padding: 0 30px;
+}
+
+li{
+   border-left: 1px solid orange;
+   height: 100%;
+   
+
+   
+
+}
+
+li :hover {
+  
+   color: aliceblue;
+}
+.navbarinput{
+   width: 500px;
+   height: 40px;
+   border: none;
+   outline: none;
+   background-color: white;
+   border-radius: 20px;
+   color:gray;
+   font-size: 16px;
+   text-align: center;
+}
+
+div button{
+ cursor: pointer;
+ width: 40px;
+ height: 40px;
+ border-radius: 20px;
+ border: none;
+ position: absolute;
+ transform: translateX(-40px);
+ background-color: orange;
+}
+
+ button:hover{
+   color: aliceblue;
+}

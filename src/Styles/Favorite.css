@@ -1,0 +1,8 @@
+.divButton {
+    width: 100%;
+    position: relative;
+}
+.divButton button {
+    position: absolute;
+    right: -46px;
+}

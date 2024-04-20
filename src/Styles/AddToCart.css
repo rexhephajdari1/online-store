@@ -1,0 +1,19 @@
+
+
+div span:hover svg{
+    border: 2px solid orange;
+    border-radius: 60px;
+    box-shadow: 0 0 15px red;
+    transition: all 0.5s ease;
+}
+
+ div span:hover svg{
+    color:orange;
+    text-shadow: 0 0 15px red;
+    transition: all 0.5s ease;
+}
+
+span svg{
+    width: 25px;
+    height: 25px;
+}
